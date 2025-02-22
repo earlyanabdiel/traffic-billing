@@ -3,7 +3,7 @@ import pandas as pd
 from io import BytesIO
 
 # Title of the Dashboard
-st.title("Billing Data Processing")
+st.title("Auto Billing Processing")
 
 # File Upload
 uploaded_files = st.file_uploader("Upload Excel files", type=["xlsx", "xls"], accept_multiple_files=True)
