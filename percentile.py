@@ -6,7 +6,6 @@ from io import BytesIO
 st.title("Auto Billing Processing")
 st.caption("created by MBB Managed Service")
 st.write("#")
-st.write("#")
 
 # File Upload
 uploaded_files = st.file_uploader("Upload Excel files", type=["xlsx", "xls"], accept_multiple_files=True)
