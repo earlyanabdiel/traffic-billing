@@ -4,8 +4,7 @@ from io import BytesIO
 
 # Title of the Dashboard
 st.title("Auto Billing Processing")
-st.caption("created by MBB Managed Service", divider="gray")
-
+st.caption("created by MBB Managed Service")
 st.write("#")
 st.write("#")
 
