@@ -4,7 +4,10 @@ from io import BytesIO
 
 # Title of the Dashboard
 st.title("Auto Billing Processing")
-st.subheader("created by MBB Managed Service", divider="gray")
+st.caption("created by MBB Managed Service", divider="gray")
+
+st.write("#")
+st.write("#")
 
 # File Upload
 uploaded_files = st.file_uploader("Upload Excel files", type=["xlsx", "xls"], accept_multiple_files=True)
